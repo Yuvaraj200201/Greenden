@@ -21,5 +21,5 @@ Greenden is a modern and responsive website designed to showcase the beauty of n
 * HTML5
 * Tailwind CSS
 
-Link:
+Link: https://yuvaraj200201.github.io/Greenden/
   
