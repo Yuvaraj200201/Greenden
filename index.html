@@ -17,11 +17,11 @@
     >
       <h1 class="text-2xl"><b>Greenden</b></h1>
 
-      <svg
+      <svg id="menuicon"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        class="w-6 h-6 md:hidden"
+        class="w-6 h-6 md:hidden cursor-pointer"
         stroke-width="1.5"
         stroke="currentColor"
         class="size-6"
@@ -45,6 +45,24 @@
         </li>
       </ul>
     </nav>
+
+    <!-- Side Navbar -->
+     <section id="sideNav" class="bg-green-300 fixed z-20 top-0 right-0 transition-all duration-1000" style="width: 30%; height: 100vh; right:-30%;">
+      <div class="text-right p-7">
+        <p id="closenav" class="inline cursor-pointer text-red-600">X</p>
+      </div>
+      <ul class="flex flex-col gap-10 items-center text-gray-600">
+        <li class="hover:underline  hover:text-white">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline hover:text-white">
+          <a href="product.html">Product</a>
+        </li>
+        <li class="hover:underline hover:text-white">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+     </section>
 
     <!-- Header Section -->
     <section class="bg-green-300 p-4 flex justify-center">
@@ -266,5 +284,9 @@
       <p class="m-2">Thank for visiting my webpage. Have a nice day </p>
       <p class="m-2">@ 2025 Greenday.com</p>
      </section>
+
+     <!-- Java Script Link -->
+      <script src="menu.js"></script>
+
   </body>
 </html>
