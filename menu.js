@@ -9,5 +9,5 @@ menubar.addEventListener('click', function() {
 })
 
 closenav.addEventListener('click', function() {
-    sidenav.style.right = "-30%";
+    sidenav.style.right = "-50%";
 })
