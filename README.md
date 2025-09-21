@@ -15,10 +15,10 @@ A beautiful and fully responsive Greenden website built with **HTML, Tailwind CS
   - 📷 **High-Quality Images** - Each product displayed with clear visuals   
 
 ### 💫 Technologies Used:
- -HTML  
- -Tailwind CSS  
- -JavaScript  
- -Grid for modern layout Structure 
+ - HTML  
+ - Tailwind CSS  
+ - JavaScript  
+ - Grid for modern layout Structure 
 
 ## 📁 Project Structure
 
@@ -46,6 +46,16 @@ A beautiful and fully responsive Greenden website built with **HTML, Tailwind CS
 ├── 📄 product.js  
 └── 📄 tailwind.config.js  
 
-───────────────────────────────────────────────────────────────────────
+───────────────────────────────────────────────────────────────────────  
+[🌐 Live Demo](https://yuvaraj200201.github.io/Greenden/)  
+[👉 GitHub Repo](https://github.com/Yuvaraj200201/Greenden)
+
+## For clone:  
+```
+git clone https://github.com/Yuvaraj200201/Greenden.git
+```
+
+
+
 
   
