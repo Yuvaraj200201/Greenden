@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vieport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenden Products</title>
+    <!-- Tailwind css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="bg-green-300 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10"
+    >
+      <h1 class="text-2xl"><b>Greenden</b></h1>
+
+      <svg id="menuicon"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        class="w-6 h-6 md:hidden cursor-pointer"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5 "
+        />
+      </svg>
+
+      <ul class="flex gap-6 text-gray-600 hidden md:flex">
+        <li class="hover:underline hover:text-black">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline hover:text-black">
+          <a href="product.html">Product</a>
+        </li>
+        <li class="hover:underline hover:text-black">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Side Navbar -->
+    <section id="sideNav" class="bg-green-300 fixed z-20 top-0 right-0 transition-all duration-1000" style="width: 50%; height: 100vh; right:-50%;">
+      <div class="text-right p-7">
+        <p id="closenav" class="inline cursor-pointer text-red-600">X</p>
+      </div>
+      <ul class="flex flex-col gap-10 items-center text-gray-600">
+        <li class="hover:underline hover:text-white">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline hover:text-white">
+          <a href="product.html">Product</a>
+        </li>
+        <li class="hover:underline hover:text-white">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+     </section>
+
+    <!-- Products Searchbar -->
+    <section class="m-6 text-center">
+      <h1 class="text-3xl mb-4"><b>Our Products</b></h1>
+      <input id="search"
+        type="text"
+        class="p-3 border border-black shadow-xl mb-4"
+        style="width: 80%"
+        placeholder="Search for a Product..."
+      />
+
+      <!-- Products -->
+      <div id="product-container" class="grid grid-cols-2 mt-6 mb-6 md:grid-cols-4 gap-6">
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-5.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">
+            Rose
+          </h1>
+          <p>$10</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-6.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Lily</h1>
+          <p>$75</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-7.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Sunflower</h1>
+          <p>$25</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-8.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Marygold</h1>
+          <p>$30</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-9.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">
+            Tulip
+          </h1>
+          <p>$100</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-10.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Daisy</h1>
+          <p>$70</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-11.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Iris</h1>
+          <p>$25</p>
+        </div>
+
+        <div class="cursor-pointer">
+          <img
+            src="./images/bestseller-12.jpg"
+            class="inline hover:shadow-2xl transform hover:-translate-y-2"
+            alt=""
+          />
+          <h1 class="hover:underline">Snowdrop</h1>
+          <p>$80</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-green-300 p-10 flex flex-col gap-3">
+      <h1 class="text-4xl m-2"><b>Greenden</b></h1>
+      <p class="m-2">Thank for visiting my webpage. Have a nice day</p>
+      <p class="m-2">@ 2025 Greenday.com</p>
+    </section>
+
+    <!-- Java Script Link -->
+    <script src="menu.js"></script>
+    <script src="product.js"></script>
+
+  </body>
+</html>
